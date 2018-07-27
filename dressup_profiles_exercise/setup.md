@@ -35,6 +35,14 @@ You can check that Jekyll was installed with `jekyll -v`
 
 4. Install a good text editor. I recommend Atom (https://atom.io), but Sublime and Text Wrangler are also great.
 
+5. Check to see if Git is installed:
+
+`git`
+
+The Terminal should print out a list of git commands. If you get an error message, then you'll need to install Git (this is unlikely since Macs have Git preinstalled).
+
+6. Sign up for a GitHub account: https://github.com *Don't forget your username and password!*
+
 That's it! Let Dawn know if you run into any issues or have questions. 
 
 If you are a Windows user and know you want to create websites using Jekyll, you can find install instructions and tips here: https://jekyllrb.com/docs/windows/
