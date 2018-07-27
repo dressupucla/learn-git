@@ -41,6 +41,9 @@ Next, we'll need to clone our forked repo to our local machines:
 7. Drop your image file into this folder - make sure that the name of the file is identical to the picture field of your profile.
 
 #### Push your changes to your remote repo on GitHub
+1. Go back to your Terminal
+2. Push your changes with this command: `git push`
+3. Enter your username and password for your github account
 
 #### Merge your changes into the main DResSUP site
 
