@@ -1,6 +1,6 @@
 ## Set up instructions
 
-For this exercise, DResSUP participants will add their own profiles to the DResSUP website. The goals of this exercise are to introduce participants to Git, GitHub, and Jekyll (a static site generator).
+For this exercise, DResSUP participants will add their own profiles to the [DResSUP website](http://dressup.library.ucla.edu/participants/). The goals of this exercise are to introduce participants to Git, GitHub, and Jekyll (a static site generator).
 
 A couple of notes:
 * We will be doing "pair programming," meaning two people will work together on a single computer.
