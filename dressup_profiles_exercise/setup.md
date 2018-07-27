@@ -2,7 +2,7 @@
 
 For this exercise, DResSUP participants will add their own profiles to the [DResSUP website](http://dressup.library.ucla.edu/participants/). The goal of this exercise is to introduce participants to Git, GitHub, and Jekyll (a static site generator).
 
-A couple of notes:
+Notes:
 * We will be doing "pair programming," meaning two people will work together on a single computer.
 * Jekyll does run on Windows, but can require a lot of tweaking to get it working. So we can focus on the task, we'll only use Macs for this exercise. If you have a Mac, please follow the setup instruction below **before coming to class**. If you do not have a Mac, you can partner with someone who does. We'll also have a few Mac laptops available for pairs that do not have a Mac.
 
