@@ -19,7 +19,7 @@ First, you'll need to get your own local copy of the website so that you can edi
   
 #### Cloning your repo to your local machine
 
-Next, we'll need to clone...
+Next, we'll need to clone our forked repo to our local machines:
 
 1. Open Terminal
 2. Change your working directory to the Desktop
