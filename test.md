@@ -1,2 +1,0 @@
-# Benson Han
-Hello world!
