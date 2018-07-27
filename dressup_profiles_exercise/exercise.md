@@ -32,7 +32,8 @@ Next, we'll need to clone our forked repo to our local machines:
 #### Add your own profiles to the site
 
 1. Look at the files in the newly cloned `dressupucla.github.io` folder
-2. 
+2. Navigate to the Participants folder
+3. Open the _participant_md. file
 
 #### Push your changes to your remote repo on GitHub
 
