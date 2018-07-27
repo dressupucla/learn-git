@@ -1,3 +1,0 @@
-# Natalie Santizo
-# Bio
-# UCLA
