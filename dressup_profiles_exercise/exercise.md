@@ -33,7 +33,12 @@ Next, we'll need to clone our forked repo to our local machines:
 
 1. Look at the files in the newly cloned `dressupucla.github.io` folder
 2. Navigate to the Participants folder
-3. Open the _participant_md. file
+3. Open the _participant_template.md file with Atom or a text editor and copy the template
+4. Create a new .md file with your first and last name and paste the template inside
+5. For the picture field, type the title of your image file exactly as it is without the file type (ie: .jpg, .png)
+6. Save your file.
+6. Navigate to the image folder
+7. Drop your image file into this folder - make sure that the name of the file is identical to the picture field of your profile.
 
 #### Push your changes to your remote repo on GitHub
 
