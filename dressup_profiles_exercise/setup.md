@@ -33,6 +33,8 @@ Once Homebrew is installed, you can easily install Ruby with the command:
 
 You can check that Jekyll was installed with `jekyll -v`
 
+4. Install a good text editor. I recommend Atom (https://atom.io), but Sublime and Text Wrangler are also great.
+
 That's it! Let Dawn know if you run into any issues or have questions. 
 
 If you are a Windows user and know you want to create websites using Jekyll, you can find install instructions and tips here: https://jekyllrb.com/docs/windows/
