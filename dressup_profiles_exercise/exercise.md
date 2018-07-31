@@ -23,29 +23,38 @@ Next, we'll need to clone our forked repo to our local machines:
 
 1. Open Terminal
 2. Change your working directory to the Desktop using the `cd` command, for example `cd Desktop`
+ * You can verify where you are in your directory using the command `pwd`
 3. Clone the forked repo to your Desktop: `git clone [the repo URL]`
 4. Change your directory so you are in the newly cloned directory using the `cd` command
 5. Now you can verify that you are in the cloned repo directory by using the command `pwd`
-6. Let's start the Jekyll server so we can preview the using this command: `bundle exec jekyll serve`
+ * Let's also use the `git status` command to get some info about our git repository - what kind of information does this give us?
+6. Let's start the Jekyll server so we can preview the website. Run: `bundle exec jekyll serve`
 7. Now you should be able to view the website in your browser at http://localhost:4000
 
 #### Add your own profiles to the site
 
-1. Look at the files in the newly cloned `dressupucla.github.io` folder
-2. Navigate to the Participants folder
-3. Open the _participant_template.md file with Atom or a text editor and copy the template
-4. Create a new .md file with your first and last name and paste the template inside
-5. For the picture field, type the title of your image file exactly as it is without the file type (ie: .jpg, .png)
-6. Save your file.
-7. Navigate to the image folder
-8. Drop your image file into this folder - make sure that the name of the file is identical to the picture field of your profile.
+1. In the Finder, look at the files in the newly cloned `dressupucla.github.io` folder on your Desktop
+ * Notice how we have different folders for different types of content? This is how we organize content in Jekyll (Dawn can walk through this if we are doing OK on time).
+2. Navigate to the **Participants** folder
+ * Take a look at some of the `.md` files here (open with a plain text editor like Atom or Sublime)
+3. Now, open the `_participant_template.md` file with Atom or a text editor and copy everything in the template - we're going to paste this into a new file
+4. Inside the Participants folder, create a new `.md` file with your first and last name and paste the template contents - make sure you got all the **YAML front matter**
+ * Complete the fields with your own info. Keep the "description" field to fewer than 50 words.
+5. Add a profile pic:
+ * Add your image file (JPG or PNG, please) to the `images` folder (keep the file name simple with no spaces or weird characters, your last name is a good choice).
+ * Now, type the file name in the `picture` field of your participant profile, minus the file extension (ie: .jpg, .png)
+6. You can save your file between each step, then refresh the site in your browser to preview your changes. When everything looks good, you are ready for the next step!
 
 #### Save and push your changes to your remote repo on GitHub
-1. Go back to your Terminal
-2. First we stage the changes we made using the `git add .` command. (The `.` means that we will stage changes to all the edited files)
-3. After stagins, we commit our changes to the repo (kind of like saving) using the command `git commit -m "add a commit message here"`
-4. Now you can push your changes with this command: `git push` - this will push your edits to your remote repo on GitHub
-5. Enter your username and password for your github account
+1. Let's return to the Terminal
+2. First, let's run `git status` to check on the status of our repo
+ * You'll notice that you have unstaged changes
+3. Let's stage our changes using the `git add .` command. (The `.` means that we will stage changes to all the edited files)
+3. Let's run `gut status` again. It tells us that we have staged changes that are ready to be committed.
+ * Let's commit our changes to the repo (kind of like saving) using the command `git commit -m "add a commit message here"`
+4. We'll run `git status` one more time to make sure all our changes were commited.
+5. If all changes are commited, we're ready to push our changes up to our remote repo on GitHub. Use: `git push origin master` - this will push your edits to your remote repo on GitHub
+ * You'll be prompted for your GitHub username and password, so enter that now. You won't see these as you type, so just type carefully!
 
 #### Merge your changes into the main DResSUP site
 1. Let's go back to GitHub and view our fork of the DResSUP website repo - you should see the changes you made to the files here. You can view the commit history and see a record of your edits
