@@ -26,9 +26,8 @@ Next, we'll need to clone our forked repo to our local machines:
 3. Clone the forked repo to your Desktop: `git clone [the repo URL]`
 4. Change your directory so you are in the newly cloned directory using the `cd` command
 5. Now you can verify that you are in the cloned repo directory by using the command `pwd`
-6. We need to install the Jekyll library to our repo using the `bundle install` command
-7. Let's start the Jekyll server so we can preview the using this command: `bundle exec jekyll serve`
-8. Now you should be able to view the website in your browser at http://localhost:4000
+6. Let's start the Jekyll server so we can preview the using this command: `bundle exec jekyll serve`
+7. Now you should be able to view the website in your browser at http://localhost:4000
 
 #### Add your own profiles to the site
 
