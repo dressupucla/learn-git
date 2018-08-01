@@ -50,7 +50,7 @@ Next, we'll need to clone our forked repo to our local machines:
 2. First, let's run `git status` to check on the status of our repo
  * You'll notice that you have unstaged changes
 3. Let's stage our changes using the `git add .` command. (The `.` means that we will stage changes to all the edited files)
-3. Let's run `gut status` again. It tells us that we have staged changes that are ready to be committed.
+3. Let's run `git status` again. It tells us that we have staged changes that are ready to be committed.
  * Let's commit our changes to the repo (kind of like saving) using the command `git commit -m "add a commit message here"`
 4. We'll run `git status` one more time to make sure all our changes were commited.
 5. If all changes are commited, we're ready to push our changes up to our remote repo on GitHub. Use: `git push origin master` - this will push your edits to your remote repo on GitHub
